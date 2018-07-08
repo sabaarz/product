@@ -7,6 +7,6 @@ import { DashboardComponent } from './features/dashboard/dashboard.component';
 export const routes: Routes = [
     { path: '', component: LoginComponent },
     { path: 'add-product', component: AddProductComponent },
-    { path: 'registration', component:RegistrationComponent  },
-    { path: 'dashboard', component:DashboardComponent  },
+    { path: 'registration', component: RegistrationComponent },
+    { path: 'dashboard', component: DashboardComponent },
 ]

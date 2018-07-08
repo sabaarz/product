@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
 import { CoreModule } from './core-module/core-module.module';
-import  { routes} from './app-route'
+import  { routes} from './app-route';
+import  {LoginComponent} from './features/login/login/login.component';
 
 @NgModule({
   declarations: [
